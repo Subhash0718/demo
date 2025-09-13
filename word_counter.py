@@ -9,3 +9,7 @@ for i in l:
         d[i] = 1
 
 print(d)
+
+
+for i,j in d.keys:
+    print('{i} has occured {j} times')
