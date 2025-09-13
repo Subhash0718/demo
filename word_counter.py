@@ -11,5 +11,5 @@ for i in l:
 print(d)
 
 
-for i,j in d.keys:
-    print('{i} has occured {j} times')
+for i,j in d.items():
+    print(f'the word {i} has occured {j} times')
